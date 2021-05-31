@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Component Library</title>
   </head>
   <body>
@@ -15,14 +16,26 @@
     <hr />
     <h2>@typography</h2>
     <h1>This is an highest heading</h1>
-    <h2>This is h2 element</h2>
-    <p>This is an example of paragraph</p>
+    <h2>This is h2 element second highest heading</h2>
+    <p>
+      This is an example of paragraph long running text would look like this on
+      the website. This will be auto fold based on the width.
+    </p>
     <small>This is a relativly samller text</small>
     <hr />
 
-    <h2>@container</h2>
-    <div>This is a fluid container.</div>
-    <div>This is centered container.</div>
+    <h2>@containers</h2>
+    <h3>@fluid container.</h3>
+    <div>
+      This is going to be a fluid container. It will go full width of page. With
+      some margin.
+    </div>
+
+    <h3>@center container</h3>
+    <div>
+      This is centered container. It will go till a given width and center
+      content.
+    </div>
     <hr />
 
     <h2>@links</h2>
@@ -31,16 +44,21 @@
     <hr />
 
     <h2>@lists</h2>
-    <div>
-      <p>Milk</p>
-      <p>Egss</p>
-      <p>Bread</p>
-    </div>
+    <h3>unordered list</h3>
     <ul>
       <li>Milk</li>
       <li>Eggs</li>
       <li>Bread</li>
     </ul>
+
+    <h3>inline lists</h3>
+    <ul>
+      <li>inline Milk</li>
+      <li>inline Eggs</li>
+      <li>inline Bread</li>
+    </ul>
+
+    <h3>reversed order lists</h3>
     <ol>
       <li>Milk</li>
       <li>Eggs</li>
@@ -49,31 +67,51 @@
     <hr />
 
     <h2>@Nav</h2>
+    Navigation is generally used on top of the page and to get to different
+    pages.
     <nav>
       <p>Brand Name</p>
       <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>About</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Products</a></li>
+        <li><a href="/">About</a></li>
       </ul>
     </nav>
     <hr />
 
     <h2>@Header</h2>
     <img src="/images/hero.svg" alt="" />
-    <p>This is the hero text</p>
+    <h1>Heading h1 inside the header</h1>
     <hr />
 
     <h2>@Section</h2>
+    <p>
+      A section is used to seperate parts of pages. In marketing websites you
+      would have seen a header followed by sections of features, team, pricing,
+      etc.
+    </p>
+    <h3>@normal section</h3>
     <section>
-      <h3>Heading Center</h3>
+      <h2>Heading inside section</h2>
+      <p>Text defining this section and many more things.</p>
+      <a href="/">Primary button</a>
     </section>
-    <section>Off White</section>
+    <h2>@an off white section</h2>
+    <section>
+      <h2>Inside off white section</h2>
+      <p>Textion defining this section and many more things.</p>
+      <a href="/">Primary Button</a>
+    </section>
     <hr />
 
     <h2>@footer</h2>
     <footer>
-      <p>Big Texts</p>
+      <h2>Header inside footer</h2>
+      <ul>
+        <li><a href="/">socialone</a></li>
+        <li><a href="/">socialtwo</a></li>
+        <li><a href="/">socialthree</a></li>
+      </ul>
     </footer>
   </body>
 </html>
