@@ -26,26 +26,26 @@
 
     <h2>@containers</h2>
     <h3>@fluid container.</h3>
-    <div>
+    <div class="container">
       This is going to be a fluid container. It will go full width of page. With
       some margin.
     </div>
 
     <h3>@center container</h3>
-    <div>
+    <div class="container container-center">
       This is centered container. It will go till a given width and center
       content.
     </div>
     <hr />
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="link-primary">Primary Link</a>
+    <a href="/" class="link-secondary">Secondary Link</a>
     <hr />
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="list-no-bullet">
       <li>Milk</li>
       <li>Eggs</li>
       <li>Bread</li>
@@ -53,13 +53,13 @@
 
     <h3>inline lists</h3>
     <ul>
-      <li>inline Milk</li>
-      <li>inline Eggs</li>
-      <li>inline Bread</li>
+      <li class="list-item-inline">inlineMilk</li>
+      <li class="list-item-inline">inlineEggs</li>
+      <li class="list-item-inline">inlineBread</li>
     </ul>
 
     <h3>reversed order lists</h3>
-    <ol>
+    <ol reversed>
       <li>Milk</li>
       <li>Eggs</li>
       <li>Bread</li>
@@ -69,12 +69,12 @@
     <h2>@Nav</h2>
     Navigation is generally used on top of the page and to get to different
     pages.
-    <nav>
-      <p>Brand Name</p>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Products</a></li>
-        <li><a href="/">About</a></li>
+    <nav class="navigation">
+      <div class="brand">TheBrandName</div>
+      <ul class="navigation-list">
+        <li class="list-item-inline"><a href="/">Home</a></li>
+        <li class="list-item-inline"><a href="/">Products</a></li>
+        <li class="list-item-inline"><a href="/">About</a></li>
       </ul>
     </nav>
     <hr />
