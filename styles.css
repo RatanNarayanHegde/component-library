@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #4338ca;
+  --dark-gray: #9ca3af;
 }
 
 body {
@@ -47,19 +48,38 @@ a {
   margin: 0 0.5rem;
 }
 
-.navigation {
-  background-color: var(--primary-color);
-  padding: 1rem 0;
+.link-active {
+  font-weight: bold;
 }
 
-.navigation .brand {
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
   color: white;
+  border-bottom-left-radius: 1rem;
 }
 
 .navigation .list-item-inline a {
   color: white;
 }
 
+.navigation .brand {
+  font-weight: bold;
+}
+
 .navigation-list {
   text-align: right;
+}
+
+.hero {
+  display: block;
+}
+
+.hero img {
+  max-width: 350px;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: var(--dark-gray);
 }

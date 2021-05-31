@@ -72,7 +72,7 @@
     <nav class="navigation">
       <div class="brand">TheBrandName</div>
       <ul class="navigation-list">
-        <li class="list-item-inline"><a href="/">Home</a></li>
+        <li class="list-item-inline link-active"><a href="/">Home</a></li>
         <li class="list-item-inline"><a href="/">Products</a></li>
         <li class="list-item-inline"><a href="/">About</a></li>
       </ul>
@@ -80,8 +80,10 @@
     <hr />
 
     <h2>@Header</h2>
-    <img src="/images/hero.svg" alt="" />
-    <h1>Heading h1 inside the header</h1>
+    <div class="hero">
+      <img src="/images/hero.svg" alt="" class="hero" />
+      <h1 class="hero hero-heading">Heading h1 inside the header</h1>
+    </div>
     <hr />
 
     <h2>@Section</h2>
@@ -94,7 +96,7 @@
     <section>
       <h2>Heading inside section</h2>
       <p>Text defining this section and many more things.</p>
-      <a href="/">Primary button</a>
+      <a href="/" class="link-primary">Primary button</a>
     </section>
     <h2>@an off white section</h2>
     <section>
