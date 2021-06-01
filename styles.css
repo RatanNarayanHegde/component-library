@@ -2,7 +2,8 @@
 
 :root {
   --primary-color: #4338ca;
-  --dark-gray: #9ca3af;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
 }
 
 body {
@@ -82,4 +83,32 @@ a {
 
 .hero .hero-heading {
   color: var(--dark-gray);
+}
+
+.section {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer h3 {
+  color: white;
+}
+
+.footer .list-item-inline a {
+  color: white;
+}
+
+ul {
+  padding-inline-start: 0px;
 }
